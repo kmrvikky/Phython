@@ -1,5 +1,5 @@
-# WAPP to check the type of variables using input() function
+# WAP to detect double space in a string
 
-a = input ("type something : ")
+name = "Vikky is tall n dark"
 
-print (type(a))
+print (name.find("  "))
