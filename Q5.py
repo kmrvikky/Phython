@@ -1,9 +1,6 @@
-# WAPP to find the avg
+# WAP to format a letter using escape sequence characters
 
-a = int(input("Enter the 1st no. "))
-b = int(input("Enter the 2nd no. "))
-c = int(input("Enter the 3rd no. "))
+letter = "Dear Vikky,\n\tHope you are doing good.\nRegards"
 
-z = (a+b+c)/3
+print(letter)
 
-print ("The Average is : ", z )
