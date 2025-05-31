@@ -1,7 +1,7 @@
-# WAPP to find greater b/w two numbers
+# WAP to detect double space in a string and replace with single space
 
-a = int(input(" "))
-b = int(input(" "))
+name = "Vikky is tall n  dark"
 
-print (a>b)
+print (name)
 
+print (name.replace("  ", " "))

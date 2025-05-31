@@ -1,9 +1,8 @@
-# WAPP to find the remainder
+# WAP to fill the Name
 
-a = int(input("Enter the 1st No. "))
-b = int(input("Enter the 2nd No. "))
+letter = '''Dear <|Name|>, 
+            You are selected.
+            <|Date|>'''
 
-z = a%b
-
-print ("The remainder is : ", z)
+print (letter.replace("<|Name|>","Vikky").replace("<|Date|>","3rd March,2025"))
 

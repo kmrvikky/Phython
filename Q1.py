@@ -1,9 +1,5 @@
-# WAPP to add two numbers
+# WAP to display user name with greeting using input() function
 
-a = int(input("Enter the 1st number: "))
+name = input("Enter your name: ")
 
-b = int(input("Enter the 2nd number: "))
-
-c = a+b
-
-print ("sum = ",c)
+print (f"Good Morning,{name}")
